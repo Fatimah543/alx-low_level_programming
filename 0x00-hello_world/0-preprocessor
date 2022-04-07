@@ -1,2 +1,2 @@
 #!/bin/bash
-stop (3399)
+main(stop); export CFILE=0-main.c
