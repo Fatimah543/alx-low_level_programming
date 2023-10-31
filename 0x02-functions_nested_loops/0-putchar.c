@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+/**
+ *main - prints _putchar
+ *Description: prints _putchar
+ *Return (0)
+ */
+int main () {
+  char str[100] = "LowLevel Programming";
+
+  for (int i = 0; i < strlen(str) ; i++){
+    putchar(str[i]);
+    printf("\n");
+  }
+  return (0);
+}
