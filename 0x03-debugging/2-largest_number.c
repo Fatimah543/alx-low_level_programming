@@ -24,5 +24,4 @@ else
 {
 largest = c;
 }
- return (0);
-}
+ 
